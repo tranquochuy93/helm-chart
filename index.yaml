@@ -2,7 +2,16 @@ apiVersion: v1
 entries:
   first-aks:
   - apiVersion: v2
-    created: "2025-03-08T10:56:07.036534+07:00"
+    created: "2025-03-08T17:23:01.999345+07:00"
+    description: A Helm chart for Kubernetes
+    digest: ea365962ba58b259dc773f6b91149de2829aa4115be5a31906c533aecea34783
+    name: first-aks
+    type: application
+    urls:
+    - first-aks-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    created: "2025-03-08T17:23:01.998435+07:00"
     description: A Helm chart for Kubernetes
     digest: 47d2fd566acd23b76a56f7303ce22e589d3646bf84bc07d8fbcf33053312fff3
     name: first-aks
@@ -10,4 +19,4 @@ entries:
     urls:
     - first-aks-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-08T10:56:07.033082+07:00"
+generated: "2025-03-08T17:23:01.997772+07:00"
