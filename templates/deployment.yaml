@@ -12,6 +12,8 @@ spec:
       labels:
         app: {{ .Values.appName }} # has to match .spec.selector.matchLabels
     spec:
+      imagePullSecrets:
+        - name: {{ .Values.appName }}-dockerconfigjson
       containers:
       - name: {{ .Values.appName }}
         image: {{ .Values.fullImageName }}
